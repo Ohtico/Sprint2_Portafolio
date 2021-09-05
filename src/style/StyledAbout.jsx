@@ -1,21 +1,20 @@
 import styled from 'styled-components';
 
-const AboutStyle = styled.nav`
+export const AboutS = styled.nav`
     background: #0F0E17;
     display: flex ; 
     justify-content: space-between;
-    padding: 10px ;
+    padding: 12px ;
 `;
 
-const ContHijo = styled.a`
+export const Enlace = styled.a`
     color: #fff;
     text-decoration: none;
-    padding: 5px;
-    margin: 5px;
-    font-size: 20px;
+    margin: 12px;
+    font-size: 30px;
 `;
 
-const Button = styled.button`
+export const But = styled.button`
     background-color: #FF8906;
     color: #fff;
     padding: 7px;
@@ -25,19 +24,19 @@ const Button = styled.button`
     cursor:pointer;
     overflow: hidden;
 `;
-const Trabajos = styled.div`
+export const Conejo = styled.div`
     display: flex ; 
     justify-content: space-around;
 `;
 
-const ContainerBody = styled.div`
+export const Bod = styled.div`
     background: #0F0E17;
     height: 89.6vh;
     display: flex ; 
     justify-content: space-around;
     padding-top: 20px;
 `;
-const TitleH2 = styled.h1`
+export const StiloH2 = styled.h1`
     font-size:65px ;
     color: #fff ;
     margin-left: 0;
@@ -45,18 +44,18 @@ const TitleH2 = styled.h1`
     margin-top: 140px;
     font-family: 'Nunito', sans-serif;
 `;
-const Perro = styled.p`
+export const Parrafo = styled.p`
     font-size: 25px;
     color: #fff ;
     font-family: 'Lora';
 `;
 
-const Llama = styled.img`
+export const LlamaImg = styled.img`
     position: absolute;
     bottom: 20px;
     left: 20px;
 `;
-const Reporte = styled.div`
+export const Body3 = styled.div`
     background: #fff;
     height: 50vh;
     display: flex ; 
@@ -64,19 +63,19 @@ const Reporte = styled.div`
     padding-top: 20px;
 `;
 
-const Gatico = styled.p`
+export const Gato = styled.p`
     font-size: 25px;
     color: #0F0E17 ;
     font-family: 'Lora';
 `;
-const Raton = styled.h1`
+export const Jirafa = styled.h1`
     font-family: 'Nunito', sans-serif;
     font-size:50px ;
     color: #0F0E17 ;
     margin-left: 0;
     padding-left: 0;
 `;
-const Pendiente = styled.div`
+export const Alerta = styled.div`
     position: absolute;
     background: #CA8450 ;
     left: 40px;
@@ -86,14 +85,14 @@ const Pendiente = styled.div`
     padding: 5px;
     border-radius: 10px;
 `;
-const terminido = styled.button`
+export const OtroBut = styled.button`
     background-color: Transparent;
     border: 2px solid #000;
     cursor:pointer;
     overflow: hidden;
     padding: 7px;
 `;
-const PendienteDos = styled.div`
+export const AlertaDos = styled.div`
     position: absolute;
     background: #CA8450 ;
     right: 180px;
@@ -103,7 +102,7 @@ const PendienteDos = styled.div`
     padding: 5px;
     border-radius: 10px;
 `;
-const Tres = styled.button`
+export const OtroTres = styled.button`
     background-color: Transparent;
     border: 2px solid #000;
     cursor:pointer;
@@ -114,14 +113,14 @@ const Tres = styled.button`
     bottom: -1500px;
     width: 180px;
 `;
-const Servicios = styled.div`
+export const ServiciosT = styled.div`
     background: linear-gradient(#FEB692, #EA5455);
     display: flex ; 
     justify-content: space-around;
     margin-top: 50px;
     padding: 15px;
 `;
-const BottomServicio = styled.button`
+export const BotonServicios = styled.button`
     background-color: #000;
     border: 2px solid #000;
     cursor:pointer;
@@ -131,34 +130,66 @@ const BottomServicio = styled.button`
     padding: 8px;
     display: flex;
 `;
-const Papel = styled.p`
+export const TestimonioP = styled.p`
     font-size: 25px;
     color: #fff ;
     font-family: 'Lora';
     margin-top: 40vh;
 `; 
-const Tijeras = styled.p`
+export const TijerasTres = styled.p`
     font-size: 25px;
     color: #fff ;
     font-family: 'Lora';
 `;
+export const Formulario = styled.form`
+    display: flex ;
+    flex-direction: column;
+    width: 30vw;
+    height: 70vh;
+    background: #000;
+    margin-top: 5%;
+`;
 
-export const AboutS = AboutStyle
-export const Enlace = ContHijo
-export const But = Button
-export const Bod = ContainerBody
-export const StiloH2 = TitleH2
-export const Parrafo = Perro
-export const LlamaImg = Llama
-export const Body3 = Reporte
-export const Gato = Gatico
-export const Jirafa = Raton
-export const Conejo = Trabajos
-export const Alerta = Pendiente
-export const OtroBut = terminido
-export const AlertaDos = PendienteDos
-export const OtroTres = Tres
-export const ServiciosT = Servicios
-export const BotonServicios = BottomServicio
-export const TestimonioP = Papel
-export const TijerasTres = Tijeras
+export const TituloF = styled.h2`
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Lora';
+    position: absolute;
+    left: 37vw;
+`;
+export const TituloP = styled.p`
+    font-size: 20px;
+    margin-top: 10vh;
+    color: #fff;
+    margin-left: 36px;
+    display: flex ;
+    justify-content: center;
+`;
+
+export const TyImput = styled.input`
+   height: 7vh;
+   width: 22vw;
+   display: flex ;
+   justify-content: center;
+   margin-left: 2.5vw;
+   margin-bottom: 2vh;
+`;
+
+export const UltimoButton = styled.button`
+    background-color: #FF8906;
+    color: #fff;
+    font-size:23;
+    padding: 14px;
+    border: 2px solid #000;
+    border-radius: 2px;
+    cursor:pointer;
+    overflow: hidden;   
+    width: 22.8vw;
+    margin-left: 2.5vw;
+`;
+
+export const FooterDos = styled.p`
+    color:#fff;
+    font-size: 24px;
+    margin-left: 4vw;
+`;

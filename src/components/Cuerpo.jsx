@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Bod, StiloH2, Parrafo, LlamaImg, Body3, Gato, Jirafa, Conejo, Alerta, But, OtroBut, AlertaDos, OtroTres, ServiciosT, BotonServicios, TestimonioP, TijerasTres } from '../style/StyledAbout';
+import { Bod, StiloH2, Parrafo, LlamaImg, Body3, Gato, Jirafa, Conejo, Alerta, But, OtroBut, AlertaDos, OtroTres, ServiciosT, BotonServicios, TestimonioP, TijerasTres, Formulario, TituloF, TituloP, TyImput, UltimoButton, AboutS, FooterDos} from '../style/StyledAbout';
 
 export const Education = () => {
     return (
@@ -129,5 +129,38 @@ export const Area = () => {
         <Conejo>
             <img src="https://res.cloudinary.com/ohtico/image/upload/v1630799788/Victor/img_ltzv1u.jpg" alt="" srcset="" />
         </Conejo>
+    )
+}
+export const Contacto = () => {
+    return (
+        <ServiciosT>
+            <Formulario>
+
+                <div>
+                    <TituloF>Contacto</TituloF>
+                <TituloP>Si está interesado en trabajar conmigo<br/> en su próximo proyecto, no dude en ponerse en contacto.</TituloP>
+                </div>
+                <div>
+                      <TyImput  placeholder="Nombre Completo" />
+                      <TyImput  placeholder="Correo Electronico" />
+                      <TyImput  placeholder="Mensaje" />
+                      <UltimoButton>Enviar mensaje</UltimoButton>
+                </div>
+            </Formulario>
+        </ServiciosT>
+    )
+}
+
+export const Footer = () => {
+    return (
+        <AboutS>
+            <div>
+                <img src="https://res.cloudinary.com/ohtico/image/upload/c_scale,w_105/v1630805610/Logo/Firma_blanca_dvqstl.png"alt="" srcset="" />
+            </div>
+            <FooterDos>Hecho con <i class="material-icons" id="car">favorite</i> de Victor. Copyright 2021 - Todos los derechos reservados.</FooterDos>
+            <div>
+                <img src="https://res.cloudinary.com/ohtico/image/upload/v1630805481/Victor/social_y9ilnt.png" alt="" srcset="" />
+            </div>
+        </AboutS>
     )
 }

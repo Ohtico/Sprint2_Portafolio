@@ -1,6 +1,6 @@
 import React from 'react';
 import About from '../components/About';
-import {Education, Reporte, Captura, CapturaDos, Servicios, Testimonios, TestimoniosDos, Area} from '../components/Cuerpo';
+import {Education, Reporte, Captura, CapturaDos, Servicios, Testimonios, TestimoniosDos, Area, Contacto, Footer} from '../components/Cuerpo';
 
 
 export const App = () => {
@@ -15,6 +15,8 @@ export const App = () => {
             <Testimonios/>
             <TestimoniosDos/>
             <Area/>
+            <Contacto/>
+            <Footer/>
         </div>
     )
 }
